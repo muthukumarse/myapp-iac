@@ -13,6 +13,10 @@ variable "gke_num_nodes" {
   description = "number of gke nodes"
 }
 
+locals {
+  existing_cluster = google_container_cluster.primary.name != ""
+}
+
 # GKE cluster
 resource "google_container_cluster" "primary" {
   name     = "${var.project_id}-gke"
