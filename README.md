@@ -25,3 +25,11 @@
   - waring are ignorable, since there few update on github Action api which need to correct by looking correct version@latest
   - if you struck in between of creating resouces half way, no choice we have to clean that and retry.
   - once the pipeline run successfully then we have state so it will be easier to update further.
+  
+  ## Screenshots
+  
+  ![VPC](./evidence/vpc.png)
+
+  ![GKE](./evidence/gke-cluster.png)
+
+  ![Pipeline](./evidence/github-pipeline.png)
