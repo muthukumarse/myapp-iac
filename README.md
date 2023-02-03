@@ -21,6 +21,7 @@
 - made small change no of nodes to trigger pipeline
 - Will run automatically and update the environment
 - Finally cleaned up everything manually.
+- added standard test script to validate the GKE inputs/outputs
 - Note:
   - waring are ignorable, since there few update on github Action api which need to correct by looking correct version@latest
   - if you struck in between of creating resouces half way, no choice we have to clean that and retry.
