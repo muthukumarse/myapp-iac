@@ -1,5 +1,3 @@
-# Test for Google Container Cluster and Node Pool
-
 # Test for the Google Container Cluster resource
 def test_google_container_cluster(resource):
   assert resource.name == "${var.project_id}-gke"
